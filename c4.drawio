@@ -10,11 +10,11 @@
           <mxGeometry x="50" y="50" width="300" height="80" as="geometry" />
         </mxCell>
         
-        <mxCell id="users" value="Users: Researchers & Engineers" style="rounded=1;fillColor=#C9DAF8;" vertex="1" parent="1">
+        <mxCell id="users" value="Users: Researchers and Engineers" style="rounded=1;fillColor=#C9DAF8;" vertex="1" parent="1">
           <mxGeometry x="50" y="150" width="300" height="60" as="geometry" />
         </mxCell>
         
-        <mxCell id="datasets" value="Data Sources: ACC & CERN Datasets" style="rounded=1;fillColor=#C9DAF8;" vertex="1" parent="1">
+        <mxCell id="datasets" value="Data Sources: ACC and CERN Datasets" style="rounded=1;fillColor=#C9DAF8;" vertex="1" parent="1">
           <mxGeometry x="50" y="220" width="300" height="60" as="geometry" />
         </mxCell>
         
