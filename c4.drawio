@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="26.0.16">
-  <diagram name="Page-1" id="LkDKwG1uIsg8Mg_B2GBA">
-    <mxGraphModel>
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile>
+  <diagram id="C4_Architecture" name="C4 Architecture">
+    <mxGraphModel dx="1170" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        
+        <!-- Context Level -->
+        <mxCell id="context" value="System: Defeater Classification System" style="rounded=1;fillColor=#D9EAD3;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="300" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="users" value="Users: Researchers & Engineers" style="rounded=1;fillColor=#C9DAF8;" vertex="1" parent="1">
+          <mxGeometry x="50" y="150" width="300" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="datasets" value="Data Sources: ACC & CERN Datasets" style="rounded=1;fillColor=#C9DAF8;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="300" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Containers Level -->
+        <mxCell id="python_app" value="Container: Python Application" style="rounded=1;fillColor=#F4CCCC;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="300" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="file_system" value="Container: File System" style="rounded=1;fillColor=#F4CCCC;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="300" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="bert_model" value="Container: Pre-trained BERT Model" style="rounded=1;fillColor=#F4CCCC;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="300" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Components Level -->
+        <mxCell id="data_loader" value="Component: Data Loader" style="rounded=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="750" y="50" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="text_preprocessor" value="Component: Text Preprocessor" style="rounded=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="750" y="120" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="embedding_generator" value="Component: Embedding Generator" style="rounded=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="750" y="190" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="classifier_trainer" value="Component: Classifier Trainer" style="rounded=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="750" y="260" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="evaluator" value="Component: Evaluator" style="rounded=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="750" y="330" width="250" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
